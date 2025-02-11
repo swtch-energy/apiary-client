@@ -7,6 +7,7 @@ require 'tmpdir'
 require 'erb'
 require 'launchy'
 require 'listen'
+require 'ostruct'
 
 require 'apiary/agent'
 require 'apiary/helpers'

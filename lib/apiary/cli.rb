@@ -72,7 +72,7 @@ module Apiary
     end
 
     desc 'version', 'Show version'
-    method_option nil, aliases: '-v'
+    method_option aliases: '-v'
 
     def version
       puts Apiary::VERSION

@@ -2,7 +2,7 @@
 
 require 'rest-client'
 require 'json'
-
+require 'ostruct'
 require 'apiary/agent'
 
 module Apiary::Command
